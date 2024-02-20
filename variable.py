@@ -37,3 +37,39 @@ print(a +b + c)
 
 
 #global variable : variables created outside of the function but it can be used by the inside and outside of the function
+#create a variable outside of a funciton and print it at inside of the function
+
+x = "awsome"
+
+def myfunc(): 
+              y = "hello world"
+              z = "java?nope its python"
+              print("Python is" + x)
+            
+myfunc()
+
+#if you create a var with same name of the fucntion which means
+#this var is local var and only be used inside of the function
+# exp:
+
+x = "awsome"
+
+def youfunc(): 
+               x = "fantastic"
+               print("Python is " + x)
+
+youfunc()
+
+print("Python is" + x)
+
+
+
+#global key word
+x = "awsomw"
+def itfunc(): 
+              global x
+              x ="fantastic"
+itfunc()
+print("Python is " + x)
+             
+ 
