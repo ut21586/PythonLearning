@@ -34,6 +34,32 @@ print(b[-5:-2]) #count and print with opposite direction such that from right to
 
 
 #modify string
-n = "helloword"
-print(a.upper())
+n = " Hello, World "
+#re-print as capital
+print(n.upper())
+print(n.lower())
+#remove useless white space
+print(n.strip())
+print(n.replace("H", "J")) #replace H with J
+print(n.split(",")) #split each element accoding what you mention in here mention as ","
+                    #then program know should be mention according "," in original string
 
+#string concatenation字符串链接
+c = "hi"
+d = "bro"
+print(c + " " + d)
+
+#string format
+
+
+#use format method toinsert number into string
+age = 36
+txt = "my name is python, iam {}"
+print(txt.format(age))
+
+#for insert multi-elements:
+quality = 3
+itemno = 567
+price = 49.95
+myorder = "i want to pay{2}dollor for{0}piece each of them{1}"
+print(myorder.format(quality, itemno, price))
