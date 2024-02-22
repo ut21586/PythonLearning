@@ -4,6 +4,12 @@ a = """
     all the best.
     """
 
+a_rep = "\n\tthis is line 1\n\tthis is line 2\n\tthis is line3"
+
+response = "Success"
+
+expected = "SUCCESS"
+
 print(a)
 
 #string also can be treated as array
@@ -14,8 +20,9 @@ print(b[1])
 
 
 for x in "banana": 
-                   print(x)
-                   print(len(a))
+    print(x)
+    print(len(a))
+
 
 #check whether a string appear in another string
 txt = "the most important thing in life"
