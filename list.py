@@ -53,3 +53,5 @@ new_list = ["hello" for x in third_list]
 print(new_list)
 new_list = [x if x != "banana" else "orange" for x in third_list]
 print(new_list)
+
+#sort list
