@@ -45,13 +45,13 @@ third_list = ["apple", "banana","cherry","kiwi", "mango"]
 
 new_list = [x for x in third_list if "a" in x]
 print(new_list)
-new_list = [x for x in range(10) if x < 5]
+new_list = [x for x in range(10) if x < 5] #filter if 
 print(new_list)
 new_list = [x.upper() for x in third_list]
 print(new_list)
 new_list = ["hello" for x in third_list]
 print(new_list)
-new_list = [x if x != "banana" else "orange" for x in third_list]
+new_list = [x if x != "banana" else "orange" for x in third_list] #expression
 print(new_list)
 
 #sort list
