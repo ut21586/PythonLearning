@@ -54,4 +54,3 @@ print(new_list)
 new_list = [x if x != "banana" else "orange" for x in third_list] #expression
 print(new_list)
 
-#sort list
