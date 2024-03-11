@@ -93,3 +93,49 @@ this_set = {"apple", "banana", "cherry"}
 [x for x in this_set]
 print(x)
 print(this_set)
+
+set1 = {"a", "b", "c"}
+set2 = {1, 2, 3}
+
+#the union()menthod returns a new set with all items from both sets
+#the update() method insets 
+set3 = set1.union(set2)
+print(set3)
+set1.update(set2)
+print(set1)
+
+#keep only the duplicate
+#the intersection_update() method willkeep only the items that are present in both sets
+#it used to find common element in both two sets
+set_x = {"apple", "banana","cherry"}
+set_y = {"google", "microsoft", "apple"}
+set_x.intersection_update(set_y)
+print(set_x)
+
+set_z = set_x.intersection(set_y)
+print(set_z)
+
+#keep all but not the duplicates\\
+#the symmetric_difference_update() method will keep only the element that are not present in both sets
+
+set_x.symmetric_difference_update(set_y)
+print(set_x)
+"""add(): add and elements to the set
+   clear(): removes all the elements from the set
+   copy(): return a copy of the set
+   difference(): return a set containing the difference between 2 or more sets
+   difference_update(): removes the items in this set that are also included in another specified set
+   discard(): remove the specified item
+   intersection(): return a set that is the intersection of 2 other set
+   intersection_update(): removes the item in this set that are not present in other, specified sets
+   isdisjoint(): return whether 2 sets have a intersection or not 
+   issubset(): return whether another set contain this set or not
+   issuperset(): return whether this set contain another set or not
+   pop(): removes an element from set
+   remove(): remove the specified element
+   symmetric_difference(): return a set with the symmetric difference of 2 sets
+   symmetric_difference_update(): inserts the symmetric difference from this set and another
+   union():return a set containing the union of set
+   update():update the set with the union of this set and others
+"""
+
