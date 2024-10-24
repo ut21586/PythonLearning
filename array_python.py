@@ -7,7 +7,6 @@ print(cars)
 print(x)
 y = len(cars)
 print(y)
-
 cars.append("Honda")
 #cars.pop(1)
 cars.remove("volvo")
