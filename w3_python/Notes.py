@@ -188,18 +188,10 @@ symmetric_difference(): ^ return a set with the symmetric differences of two set
 symmetric difference update(): ^= inserts the symmetric differences from this set and another
 union(): | return a set containing the union of sets
 update(): |= update the set with the union of set and others
-
-
 """
-
-
-
-
-
 
 
 """
 DICTIONARY
 get method can print the key from dictionary
-
 """

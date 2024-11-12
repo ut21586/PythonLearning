@@ -8,7 +8,6 @@ print("Helloworld") #also a comment for printing program
 #line2
 #line3
 #...etc its available but no taste
-
 #better one:
 
 """
